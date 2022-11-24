@@ -1,7 +1,7 @@
 # **ALEKSEY EROH**
+###_Junior Frontend Developer_
 
-_Junior Frontend Developer_
-![photo Aleksey Eroh](./DSC_9024.jpg){width=500px}
+![photo Aleksey Eroh](./DSC_9024.jpg)
 
 ## **CONTACT DETAILS:**
 
