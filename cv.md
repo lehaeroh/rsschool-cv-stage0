@@ -46,14 +46,14 @@ function sum (number, numberOfPower) {
 
 ---
 
-### **EXPERIENCE:**
+## **EXPERIENCE:**
 
 * Engineer of production technical department, Minsk (2015-2018)
 * Engineer by Siemens Systems / Operate Desigo Insight, Moscow (2018 - now)
 
 ---
 
-### **EDUCATION:**
+## **EDUCATION:**
 
 Belarusian National Technical University
 
