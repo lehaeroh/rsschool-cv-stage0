@@ -1,5 +1,5 @@
 # **ALEKSEY EROH**
-###_Junior Frontend Developer_
+_Junior Frontend Developer_
 
 ![photo Aleksey Eroh](./DSC_9024.jpg)
 
@@ -56,7 +56,10 @@ function sum (number, numberOfPower) {
 ### **EDUCATION:**
 
 Belarusian National Technical University
+
 Faculty of TECHNICAL OPERATION OF AUTOMOBILES, Minsk (2012-2018)
+
+---
 
 ## **COURSES:**
 
