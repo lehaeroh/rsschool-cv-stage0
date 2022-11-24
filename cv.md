@@ -64,7 +64,7 @@ Faculty of TECHNICAL OPERATION OF AUTOMOBILES, Minsk (2012-2018)
 ## **COURSES:**
 
 * JBORN «Java» (in progress)
-* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+* RS School Course «JavaScript/Front-end. Stage 0» (in progress)
 * RS School Course «nodeJS» (in progress)
 
 ---
@@ -79,10 +79,10 @@ Faculty of TECHNICAL OPERATION OF AUTOMOBILES, Minsk (2012-2018)
 
 ## **PROJECTS:**
 
-* [Denis Novik Portfolio]()
+* [Denis Novik Portfolio](https://lehaeroh.github.io/Denis_Novik_Portfolio_site/)
 
-* [Development assistance]()
+* [Development assistance](https://lehaeroh.github.io/development_assistance_site/)
 
-* [Konstrukt]()
+* [Konstrukt](https://lehaeroh.github.io/konstrukt_site/)
 
-* [Revo]()
+* [Revo](https://lehaeroh.github.io/revo_site/)
