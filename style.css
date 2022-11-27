@@ -1,3 +1,414 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
 body {
-margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fff;
+  font-size: 18px;
+}
+
+/*Container*/
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  min-height: 1000px;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+/*Header*/
+/*Nav*/
+.header {
+  background-color: black;
+}
+
+.nav {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.nav__links {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  align-self: center;
+  list-style-type: none;
+}
+
+.nav__link {
+  font-size: 0.9em;
+  color: #fff;
+  text-decoration: none;
+
+  transition: color 0.2s linear;
+}
+
+.nav__link:hover {
+  color: #5a5d5f;
+}
+
+.photo {
+  width: 548px;
+}
+
+/*left Side*/
+.container .left_side {
+  position: relative;
+  background: linear-gradient(#000 40%, #fff);
+  color: #fff;
+}
+
+.profile_titles {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  z-index: 1;
+}
+
+.imgBx {
+  position: absolute;
+  display: block;
+  z-index: -1;
+}
+
+.profile_title {
+  font-weight: 500;
+  font-size: 3em;
+  padding-top: 10px;
+}
+
+.profile_subtitle {
+  font-weight: 300;
+  font-size: 1em;
+}
+
+.left_info {
+  position: relative;
+  display: grid;
+
+  gap: 40px;
+  top: 30%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/*contacts*/
+.contacts {
+  height: 300px;
+  padding-left: 40px;
+}
+
+.title__contact {
+  font-size: 1.5em;
+  padding-bottom: 30px;
+}
+
+.location {
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.location p {
+  font-size: 18px;
+  padding-left: 30px;
+}
+
+.contact_items {
+  list-style-type: none;
+  line-height: 35px;
+  font-size: 20px;
+}
+
+.contact_items .text a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*Code*/
+
+.code {
+  position: relative;
+  margin-top: 30px;
+}
+.imgCode {
+  position: relative;
+  background-repeat: no-repeat;
+  width: 468px;
+}
+.codes {
+  position: relative;
+  z-index: 1;
+  margin-top: -100%;
+  left: 70px;
+}
+.codes pre {
+  margin-left: -22px;
+}
+
+.title__code {
+  transform: rotate(16deg);
+  margin-left: -32px;
+}
+
+/*Language*/
+.language {
+  margin-top: 60%;
+  color: #000;
+  font-weight: 900;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.title__language {
+  font-size: 1.5em;
+  font-weight: 900;
+  padding-bottom: 30px;
+}
+
+.languages .text {
+  position: relative;
+  font-size: 1em;
+  font-weight: 700;
+  top: 10px;
+}
+
+.languages .text .lang {
+  font-weight: 500;
+}
+
+.languages .percent {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background-color: #cacaca;
+  display: block;
+  margin-top: 30px;
+}
+
+.languages .percent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #000;
+}
+
+.info__language {
+  list-style: none;
+}
+
+/*Interest*/
+.interest {
+  color: #000;
+  font-weight: 900;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 80px;
+}
+
+.title__interest {
+  font-size: 1.5em;
+  font-weight: 900;
+  padding-bottom: 30px;
+}
+
+.interest_items {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  font-size: 40px;
+  margin-top: 40px;
+  color: #4e4e4e;
+}
+
+/*right Side*/
+.container .right_side {
+  position: relative;
+  background-color: #f5f5f5;
+}
+
+.header {
+  padding: 40px;
+}
+
+.main {
+  padding: 60px 0px 60px 80px;
+}
+
+.titles__right {
+  background-color: black;
+  color: #fff;
+  padding: 30px;
+}
+
+.info {
+  padding: 50px;
+}
+
+.profile_titles {
+  text-align: right;
+  justify-items: ;
+  width: 548px;
+  color: #fff;
+}
+
+/*About*/
+
+/*Education*/
+.info__education {
+  font-size: 20px;
+  line-height: 2em;
+}
+
+.info__education h6 {
+  font-weight: 900;font-size: 15px;
+}
+
+.info__education h5 {
+  font-weight: 500;font-size: 20px;
+}
+
+.info__education h4 {
+  font-weight: 300;font-size: 20px;
+}
+/*Excpirience*/
+.excperience{  font-size: 20px;}
+.info__excperience {
+  font-size: 20px;
+  line-height: 2em;
+}
+
+.info__excperience h6 {
+  font-weight: 900; font-size: 15px;
+}
+.info__excperience h5 {
+  font-weight: 500;font-size: 20px;
+}
+.info__excperience h4 {
+  font-weight: 300;font-size: 20px;
+}
+/*Skills*/
+.diagrams {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.diagram {
+  justify-self: center;
+}
+
+.newDiagram {
+  --v: calc(((18 / 5) * var(--p) - 90) * 1deg);
+  position: relative;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 15px;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  padding: 27px;
+  background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255))
+      content-box,
+    linear-gradient(var(--v), #9a9a9a 50%, transparent 0) 0 /
+      min(100%, (50 - var(--p)) * 100%),
+    linear-gradient(var(--v), transparent 50%, rgb(0, 0, 0) 0) 0 /
+      min(100%, (var(--p) - 50) * 100%),
+    linear-gradient(to right, #9a9a9a 50%, rgb(0, 0, 0) 0);
+}
+
+.newDiagram img {
+  margin-top: 25%;
+}
+
+.diagram_img {
+}
+
+.boxText {
+  color: #000;
+  font-weight: 900;
+
+  font-size: 20px;
+}
+
+/*Courses*/
+.info__courses {
+  line-height: 40px;
+  padding-left: 65px;
+}
+
+/*Projects*/
+.list_proj {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  list-style: none;
+}
+
+.list_proj a {
+  text-decoration: none;
+  color: #000;
+}
+
+.info__excperience {
+}
+
+.project_btn {
+  background-color: #5a5d5f;
+  color: #fff;
+  border: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 3px;
+}
+.project_btn a {
+  color: #fff;
+}
+
+.list_proj span {
+  color: #8b8b8b;
+}
+
+/*Img links*/
+.img_links {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  padding: 20px;
+}
+/*Footer*/
+.footer {
+  background-color: #000;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+  padding: 20px;
+
+  color: #fff;
 }
