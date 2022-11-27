@@ -275,7 +275,7 @@ body {
 
 .profile_titles {
   text-align: right;
-  justify-items: ;
+
   width: 548px;
   color: #fff;
 }
@@ -289,31 +289,39 @@ body {
 }
 
 .info__education h6 {
-  font-weight: 900;font-size: 15px;
+  font-weight: 900;
+  font-size: 15px;
 }
 
 .info__education h5 {
-  font-weight: 500;font-size: 20px;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .info__education h4 {
-  font-weight: 300;font-size: 20px;
+  font-weight: 300;
+  font-size: 20px;
 }
 /*Excpirience*/
-.excperience{  font-size: 20px;}
+.excperience {
+  font-size: 20px;
+}
 .info__excperience {
   font-size: 20px;
   line-height: 2em;
 }
 
 .info__excperience h6 {
-  font-weight: 900; font-size: 15px;
+  font-weight: 900;
+  font-size: 15px;
 }
 .info__excperience h5 {
-  font-weight: 500;font-size: 20px;
+  font-weight: 500;
+  font-size: 20px;
 }
 .info__excperience h4 {
-  font-weight: 300;font-size: 20px;
+  font-weight: 300;
+  font-size: 20px;
 }
 /*Skills*/
 .diagrams {
@@ -352,13 +360,9 @@ body {
   margin-top: 25%;
 }
 
-.diagram_img {
-}
-
 .boxText {
   color: #000;
   font-weight: 900;
-
   font-size: 20px;
 }
 
@@ -379,9 +383,6 @@ body {
 .list_proj a {
   text-decoration: none;
   color: #000;
-}
-
-.info__excperience {
 }
 
 .project_btn {
