@@ -101,6 +101,11 @@ body {
   padding-top: 10px;
 }
 
+.profile_title a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .profile_subtitle {
   font-weight: 300;
   font-size: 1em;
