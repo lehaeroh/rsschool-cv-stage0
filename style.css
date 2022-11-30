@@ -161,7 +161,7 @@ body {
 }
 
 .code__info {
-  line-height: 35px;
+  line-height: 30px;
 }
 .imgCode {
   position: relative;
@@ -292,7 +292,7 @@ body {
 .info__about {
   text-indent: 40px;
   line-height: 1.75em;
-  text-align:justify; 
+  text-align: justify;
 }
 
 /*Education*/
@@ -324,6 +324,10 @@ body {
   line-height: 2em;
   padding-left: 70px;
   list-style-type: disclosure-open;
+}
+
+.info__excperience li {
+  padding-left: 20px;
 }
 
 .info__excperience h6 {
@@ -385,8 +389,12 @@ body {
 .info__courses {
   font-size: 20px;
   line-height: 50px;
-  padding-left: 95px;
+  padding-left: 70px;
   list-style-type: disclosure-closed;
+}
+
+.info__courses li {
+  padding-left: 20px;
 }
 
 .info__courses span {
@@ -394,6 +402,12 @@ body {
 }
 
 /*Projects*/
+
+.info__projects {
+  font-size: 20px;
+  line-height: 2em;
+}
+
 .list_proj {
   display: flex;
   justify-content: space-between;
@@ -428,7 +442,7 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: #000;
-  padding: 20px;
+  padding: 16px 20px;
 }
 /*Footer*/
 .footer {
