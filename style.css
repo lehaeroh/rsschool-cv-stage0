@@ -233,6 +233,18 @@ body {
   line-height: 40px;
 }
 
+.langRus {
+ width: 100%;
+}
+
+.langEng {
+  width: 30%;
+}
+
+.langPol {
+  width: 30%;
+}
+
 /*Interest*/
 .interest {
   color: #000;
@@ -378,6 +390,40 @@ body {
 .newDiagram img {
   margin-top: 25%;
 }
+
+.diaHtml {
+  --p: 73;
+}
+
+.diaCss {
+  --p: 71;
+}
+
+.diaJs {
+  --p: 33;
+}
+
+.diaJava {
+  --p: 41;
+}
+
+.diaGit {
+  --p: 50;
+}
+
+.diaVs {
+  --p: 63;
+}
+
+.diaFigma {
+  --p: 70;
+}
+
+.diaDesire {
+  --p: 100;
+}
+
+
 
 .boxText {
   color: #000;
