@@ -474,10 +474,9 @@ body {
   width: 100px;
   height: 30px;
   border-radius: 3px;
+  cursor: pointer;
 }
-.project_btn a {
-  color: #fff;
-}
+
 
 .list_proj span {
   color: #8b8b8b;
